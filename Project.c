@@ -7,6 +7,8 @@ void main() // 하나만 존재 (entry point)
     const int age = 25;
     const int day = 25;
 
+    const float height =1.5f;
+    
     //printf("Hello World 1 \n"); // print format (문자제어), 문자열 출력이기 때문이 ""사이에 넣어야 한다.
     printf("%s의 나이는 %d 이다. 키는 %.2fcm 입니다\n",
         "홍길동", age, 178.5); // 나이하고 숫자를 같이 출력해 준다. 
